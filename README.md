@@ -83,7 +83,7 @@ For Debian based distros
 ```
 sudo apt install python3
 ```
-Install Docker by following the [official Docker docs](https://docs.docker.com/engine/install/debian/)
+Install Docker by following the [`Official Docker docs`](https://docs.docker.com/engine/install/debian/)
 
 - For Arch and it's derivatives:
 ```
@@ -98,7 +98,7 @@ pip3 install -r requirements-cli.txt
     <summary><b>Click Here For More Details</b></summary>
 
 **1. Using ElephantSQL**
-- Go to [`https://elephantsql.com/`] and create account (skip this if you already have ElephantSQL account)
+- Go to [`elephantsql.com`](https://elephantsql.com/) and create account (skip this if you already have ElephantSQL account)
 - Hit **Create New Instance**
 - Follow the further instructions in the screen
 - Hit **Select Region**
@@ -143,7 +143,7 @@ Fill up rest of the fields. Meaning of each fields are discussed below:
 - **TOKEN_PICKLE_URL**: Only if you want to load your **token.pickle** externally from an Index Link. Fill this with the direct link of that file.
 - **AUTHORIZED_CHATS**: Fill user_id and chat_id of you want to authorize.
 - **IS_TEAM_DRIVE**: Set to `True` if `GDRIVE_FOLDER_ID` is from a Team Drive else `False` or Leave it empty.
-- **USE_SERVICE_ACCOUNTS**: (Leave empty if unsure) Whether to use Service Accounts or not. For this to work see [Using service accounts](https://github.com/breakdowns/slam-mirrorbot#generate-service-accounts-what-is-service-account) section below.
+- **USE_SERVICE_ACCOUNTS**: (Leave empty if unsure) Whether to use Service Accounts or not. For this to work see [`Using Service Accounts`](https://github.com/breakdowns/slam-mirrorbot#generate-service-accounts-what-is-service-account) section below.
 - **INDEX_URL**: Refer to https://github.com/ParveenBhadooOfficial/Google-Drive-Index The URL should not have any trailing '/'
 - **MEGA_API_KEY**: Mega.nz api key to mirror mega.nz links. Get it from [Mega SDK Page](https://mega.nz/sdk)
 - **MEGA_EMAIL_ID**: Your email id you used to sign up on mega.nz for using premium accounts (Leave th)
@@ -307,7 +307,7 @@ Thanks to:
 - [`Dank-del`](https://github.com/Dank-del/) for base repo
 - [`magneto261290`](https://github.com/magneto261290/) for some features
 - [`SVR666`](https://github.com/SVR666/) for some features & fixes
-- [`anasty17`](https://github.com/anasty17) for some features & help
-- [`breakdowns`](https://github.com/breakdowns) for slam-mirrorbot
+- [`anasty17`](https://github.com/anasty17/) for some features & help
+- [`breakdowns`](https://github.com/breakdowns/) for slam-mirrorbot
 
 And many more people who aren't mentioned here, but may be found in [Contributors](https://github.com/breakdowns/slam-mirrorbot/graphs/contributors).
