@@ -128,8 +128,8 @@ _____REMOVE_THIS_LINE_____=True
 Fill up rest of the fields. Meaning of each fields are discussed below:
 ### Required Field
 - **BOT_TOKEN**: The Telegram bot token that you get from [`@BotFather`](https://t.me/BotFather)
-- **TELEGRAM_API**: This is to authenticate to your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org DO NOT put this in quotes.
-- **TELEGRAM_HASH**: This is to authenticate to your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org
+- **TELEGRAM_API**: This is to authenticate to your Telegram account for downloading Telegram files. You can get this from [`my.telegram.org`](https://my.telegram.org) DO NOT put this in quotes.
+- **TELEGRAM_HASH**: This is to authenticate to your Telegram account for downloading Telegram files. You can get this from [`my.telegram.org`](https://my.telegram.org)
 - **OWNER_ID**: The Telegram user ID (not username) of the Owner of the bot
 - **DATABASE_URL**: Your Database URL. See [`Generate Database`](https://github.com/breakdowns/slam-mirrorbot/tree/master#generate-database) to generate database. (**NOTE**: If you deploying on Heroku using Heroku button, no need to generate database manually, because it will automatic generate database when first deploying)
 - **GDRIVE_FOLDER_ID**: This is the folder ID of the Google Drive Folder to which you want to upload all the mirrors.
@@ -144,8 +144,8 @@ Fill up rest of the fields. Meaning of each fields are discussed below:
 - **AUTHORIZED_CHATS**: Fill user_id and chat_id of you want to authorize.
 - **IS_TEAM_DRIVE**: Set to `True` if `GDRIVE_FOLDER_ID` is from a Team Drive else `False` or Leave it empty.
 - **USE_SERVICE_ACCOUNTS**: (Leave empty if unsure) Whether to use Service Accounts or not. For this to work see [`Using Service Accounts`](https://github.com/breakdowns/slam-mirrorbot#generate-service-accounts-what-is-service-account) section below.
-- **INDEX_URL**: Refer to https://github.com/ParveenBhadooOfficial/Google-Drive-Index The URL should not have any trailing '/'
-- **MEGA_API_KEY**: Mega.nz api key to mirror mega.nz links. Get it from [Mega SDK Page](https://mega.nz/sdk)
+- **INDEX_URL**: Refer to [`https://gitlab.com/ParveenBhadooOfficial/Google-Drive-Index`](https://gitlab.com/ParveenBhadooOfficial/Google-Drive-Index) The URL should not have any trailing '/'
+- **MEGA_API_KEY**: Mega.nz api key to mirror mega.nz links. Get it from [`Mega SDK Page`](https://mega.nz/sdk)
 - **MEGA_EMAIL_ID**: Your email id you used to sign up on mega.nz for using premium accounts (Leave th)
 - **MEGA_PASSWORD**: Your password for your mega.nz account
 - **BLOCK_MEGA_FOLDER**: If you want to remove mega.nz folder support, set it to `True`.
@@ -158,8 +158,8 @@ Fill up rest of the fields. Meaning of each fields are discussed below:
 - **TORRENT_DIRECT_LIMIT**: To limit the Torrent/Direct mirror size, Leave space between number and unit. Available units is (gb or GB, tb or TB).
 - **IMAGE_URL**: Show Image/Logo in /start message. Fill value of image your link image, use telegra.ph or any direct link image.
 - **VIEW_LINK**: View Link button to open file Index Link in browser instead of direct download link, you can figure out if it's compatible with your Index code or not, open any video from you Index and check if the END of link from browser link bar is `?a=view`, if yes make it `True` it will work (Compatible with [Bhadoo Index](https://github.com/ParveenBhadooOfficial/Google-Drive-Index) Code)
-- **UPTOBOX_TOKEN**: Uptobox token to mirror uptobox links. Get it from [Uptobox Premium Account](https://uptobox.com/my_account).
-- **HEROKU_API_KEY**: (Only if you deploying on Heroku) Your Heroku API key, get it from https://dashboard.heroku.com/account.
+- **UPTOBOX_TOKEN**: Uptobox token to mirror uptobox links. Get it from [`Uptobox Premium Account`](https://uptobox.com/my_account).
+- **HEROKU_API_KEY**: (Only if you deploying on Heroku) Your Heroku API key, get it from [`dashboard.heroku.com/account`](https://dashboard.heroku.com/account).
 - **HEROKU_APP_NAME**: (Only if you deploying on Heroku) Your Heroku app name.
 - **IGNORE_PENDING_REQUESTS**: (Optional field) If you want the bot to ignore pending requests after it restarts, set this to `True`.
 - **SHORTENER_API**: Fill your Shortener api key if you are using Shortener.
@@ -183,13 +183,13 @@ Three buttons are already added of Drive Link, Index Link, and View Link, you ca
 </details>
 
 ## Getting Google OAuth API credential file
-- Visit the [Google Cloud Console](https://console.developers.google.com/apis/credentials)
+- Visit the [`Google Cloud Console`](https://console.developers.google.com/apis/credentials)
 - Go to the OAuth Consent tab, fill it, and save.
 - Go to the Credentials tab and click Create Credentials -> OAuth Client ID
 - Choose Desktop and Create.
 - Use the download button to download your credentials.
 - Move that file to the root of mirrorbot, and rename it to **credentials.json**
-- Visit [Google API page](https://console.developers.google.com/apis/library)
+- Visit [`Google API page`](https://console.developers.google.com/apis/library)
 - Search for Drive and enable it if it is disabled
 - Finally, run the script to generate **token.pickle** file for Google Drive:
 ```
@@ -214,7 +214,7 @@ sudo docker run mirrorbot
 
 ## Deploying on Heroku
 
-- Give stars and Fork this repo then upload **token.pickle** to your forks, or you can upload your **token.pickle** to your Index and put your **token.pickle** link to **TOKEN_PICKLE_URL**. How to generate **token.pickle**? [Read here](https://github.com/breakdowns/slam-mirrorbot#getting-google-oauth-api-credential-file)
+- Give stars and Fork this repo then upload **token.pickle** to your forks, or you can upload your **token.pickle** to your Index and put your **token.pickle** link to **TOKEN_PICKLE_URL**. How to generate **token.pickle**? [`Read Here`](https://github.com/breakdowns/slam-mirrorbot#getting-google-oauth-api-credential-file)
 - Hit the **DEPLOY TO HEROKU** button and follow the further instructions in the screen
 - Recommended to use 1 App in 1 Heroku accounts
 
@@ -228,7 +228,7 @@ For Service Account to work, you must set **USE_SERVICE_ACCOUNTS=**"True" in con
 Many thanks to [AutoRClone](https://github.com/xyou365/AutoRclone) for the scripts.
 **NOTE**: Using Service Accounts is only recommended while uploading to a Team Drive.
 
-## Generate Service Accounts. [What is Service Account](https://cloud.google.com/iam/docs/service-accounts)
+## Generate Service Accounts. [`What is Service Account`](https://cloud.google.com/iam/docs/service-accounts)
 <details>
     <summary><b>Click Here For More Details</b></summary>
 
